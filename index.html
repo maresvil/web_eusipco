@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EUSIPCO 2025 – Explorador de Papers Biomédicos</title>
+  <style>
+    /* Estilos básicos para un diseño limpio y responsive */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background-color: #003366;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    h1 {
+      margin: 0 0 1rem;
+      font-size: 1.75rem;
+    }
+    #search {
+      width: 90%;
+      max-width: 600px;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border-radius: 4px;
+      border: none;
+      font-size: 1rem;
+    }
+    #filters {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .filter-group {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .filter-group label {
+      font-weight: bold;
+      margin-bottom: 0.25rem;
+    }
+    .filter-group select {
+      min-width: 150px;
+      padding: 0.25rem;
+    }
+    #result-count {
+      margin: 0.5rem;
+      font-weight: bold;
+    }
+    #papers-container {
+      padding: 1rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1rem;
+    }
+    .paper-card {
+      background-color: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .paper-card h3 {
+      margin-top: 0;
+      font-size: 1.1rem;
+      color: #003366;
+    }
+    .paper-card .tags {
+      margin: 0.5rem 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem;
+    }
+    .tag {
+      background-color: #e0e7ff;
+      color: #1e3a8a;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+      font-size: 0.75rem;
+    }
+    .paper-card p {
+      margin: 0.5rem 0;
+      font-size: 0.9rem;
+    }
+    .paper-card a {
+      align-self: flex-start;
+      margin-top: 0.5rem;
+      background-color: #2563eb;
+      color: #fff;
+      padding: 0.4rem 0.6rem;
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 0.85rem;
+    }
+    .paper-card a:hover {
+      background-color: #1e40af;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Explorador de papers biomédicos – EUSIPCO 2025</h1>
+    <input type="text" id="search" placeholder="Buscar por título, autores o resumen…">
+    <div id="filters"></div>
+    <p id="result-count"></p>
+  </header>
+  <main id="papers-container"></main>
+  <!-- Cargamos primero los datos de papers para evitar fetch desde file:// -->
+  <script src="papers.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,1659 @@
+window.papers = [
+  {
+    "title": "Modelado de rendimiento para la decodificación neuronal basada en correlación de la atención auditiva al habla",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-L1",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001467.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001467.pdf",
+    "abstract_raw": null,
+    "abstract_public": "Se propone un modelo que estima la precisión de decodificación de la atención auditiva en EEG en función de la longitud de la ventana, permitiendo ajustar experimentos sin probar todas las longitudes.",
+    "signals": [
+      "EEG"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": false,
+    "dl_type": [],
+    "task": [
+      "Regresión"
+    ],
+    "context": [
+      "Monitorización"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Sistema de reconocimiento de habla imaginada basado en EEG mediante transformada Spectral Graph Wavelet",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-L1",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001472.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001472.pdf",
+    "abstract_raw": null,
+    "abstract_public": "La combinación de la transformada spectral graph wavelet con clasificadores permite reconocer dígitos, letras y objetos imaginados a partir de EEG con alta precisión.",
+    "signals": [
+      "EEG"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": false,
+    "dl_type": [],
+    "task": [
+      "Clasificación"
+    ],
+    "context": [
+      "Diagnóstico"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "VAREEGNET: una red neuronal mejorada para BCI basadas en imaginación motora",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-L1",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001477.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001477.pdf",
+    "abstract_raw": null,
+    "abstract_public": "Se añade una capa de varianza a EEGNet para reducir la dimensionalidad y mejorar la clasificación de imaginación motora, logrando mejoras de precisión.",
+    "signals": [
+      "EEG"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": true,
+    "dl_type": [
+      "CNN"
+    ],
+    "task": [
+      "Clasificación"
+    ],
+    "context": [
+      "Biosensado remoto"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Predicción de habla continua mediante segmentación de EEG auditivo",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-L1",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001482.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001482.pdf",
+    "abstract_raw": null,
+    "abstract_public": "Un modelo basado en Transformers segmenta los electrodos por regiones cerebrales para predecir características de habla a partir de EEG, destacando la región frontal.",
+    "signals": [
+      "EEG"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": true,
+    "dl_type": [
+      "Transformer"
+    ],
+    "task": [
+      "Regresión"
+    ],
+    "context": [
+      "Monitorización"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Clasificación EEG de imaginación motora con CNNs",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-L1",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001487.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001487.pdf",
+    "abstract_raw": null,
+    "abstract_public": "Comparación de EEGNet y EDPNet bajo diferentes números de canales y duraciones muestra que las CNNs mantienen un desempeño por encima del azar incluso con menos datos.",
+    "signals": [
+      "EEG"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": true,
+    "dl_type": [
+      "CNN"
+    ],
+    "task": [
+      "Clasificación"
+    ],
+    "context": [
+      "Biosensado remoto"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Eliminación de artefactos cardiovasculares para el análisis imparcial de señales EEG intracorticales",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-P1",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001492.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001492.pdf",
+    "abstract_raw": null,
+    "abstract_public": "Modela y elimina artefactos cardiovasculares en EEG intracortical utilizando el ECG para mejorar la detección de potenciales evocados.",
+    "signals": [
+      "EEG",
+      "ECG"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": false,
+    "dl_type": [],
+    "task": [
+      "Preprocesamiento"
+    ],
+    "context": [
+      "Calidad de señal"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Identificación de estrategias de predicción de Alzheimer en CNN usando mapas R2* y clustering espectral",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-P1",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001497.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001497.pdf",
+    "abstract_raw": null,
+    "abstract_public": "Se emplea propagación de relevancia y clustering espectral para analizar qué regiones una CNN considera importantes al clasificar Alzheimer, mejorando la explicabilidad.",
+    "signals": [
+      "Multimodal"
+    ],
+    "medical_imaging": [
+      "RM"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": true,
+    "dl_type": [
+      "CNN"
+    ],
+    "task": [
+      "Clasificación",
+      "Explicabilidad"
+    ],
+    "context": [
+      "Diagnóstico"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Integrando conectomas funcionales y estructurales: un marco de grafos multicapa para clasificación de Alzheimer",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-P1",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001502.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001502.pdf",
+    "abstract_raw": null,
+    "abstract_public": "Se combinan fMRI y dMRI en un grafo de dos capas y se optimizan los pesos para diferenciar entre Alzheimer, deterioro cognitivo leve y controles.",
+    "signals": [
+      "Multimodal"
+    ],
+    "medical_imaging": [
+      "RM"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": false,
+    "dl_type": [],
+    "task": [
+      "Clasificación"
+    ],
+    "context": [
+      "Diagnóstico"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Clasificación EEG fNIRS frontal para diagnóstico del trastorno bipolar",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-P1",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001507.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001507.pdf",
+    "abstract_raw": null,
+    "abstract_public": "Sistema que combina EEG y fNIRS frontales adaptando un método de eliminación de artefactos; la fusión mejora el diagnóstico del trastorno bipolar.",
+    "signals": [
+      "EEG",
+      "fNIRS"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": false,
+    "dl_type": [],
+    "task": [
+      "Clasificación"
+    ],
+    "context": [
+      "Diagnóstico"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Modelo ligero de autoencoder para detección de crisis epilépticas",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-P1",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001512.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001512.pdf",
+    "abstract_raw": null,
+    "abstract_public": "Combina autoencoders y k-NN para detectar crisis epilépticas, usando datos sintéticos y logrando alta precisión con pocos parámetros.",
+    "signals": [
+      "EEG"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": true,
+    "dl_type": [
+      "AE"
+    ],
+    "task": [
+      "Detección"
+    ],
+    "context": [
+      "Diagnóstico"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Predicción del riesgo de crisis epilépticas en encefalopatía hipóxico isquémica neonatal",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-P1",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001517.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001517.pdf",
+    "abstract_raw": null,
+    "abstract_public": "Un modelo XGBoost predice qué neonatos sufrirán crisis utilizando seis características, obteniendo buen desempeño.",
+    "signals": [
+      "EEG"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": false,
+    "dl_type": [],
+    "task": [
+      "Predicción"
+    ],
+    "context": [
+      "Pronóstico"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Identificación basada en datos de cambios en la red funcional en la rehabilitación por neurofeedback del ACV",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-P1",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001522.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001522.pdf",
+    "abstract_raw": null,
+    "abstract_public": "Utiliza Network Based Statistics para detectar componentes de conectividad en fMRI tras neurofeedback, identificando cambios en redes somatomotoras y de modo por defecto.",
+    "signals": [
+      "fMRI"
+    ],
+    "medical_imaging": [
+      "RM"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": false,
+    "dl_type": [],
+    "task": [
+      "Análisis"
+    ],
+    "context": [
+      "Terapia"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Reconstrucción Plug and Play para datos 3D de fMRI no cartesianos",
+    "authors": [],
+    "affiliations": [],
+    "session": "SS8",
+    "pdf_url": null,
+    "landing_url": null,
+    "abstract_raw": null,
+    "abstract_public": "Introducción de un método plug and play con prior de red neuronal para reconstrucción 3D de fMRI con datos no cartesianos.",
+    "signals": [
+      "fMRI"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": true,
+    "dl_type": [
+      "Diffusion"
+    ],
+    "task": [
+      "Reconstrucción"
+    ],
+    "context": [
+      "Diagnóstico"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Predicción de la experiencia sinestésica a partir de fMRI en reposo",
+    "authors": [],
+    "affiliations": [],
+    "session": "SS8",
+    "pdf_url": null,
+    "landing_url": null,
+    "abstract_raw": null,
+    "abstract_public": "Modelos basados en grafos neuronales clasifican la sinestesia alcanzando alta precisión, mostrando que la condición tiene firma neural.",
+    "signals": [
+      "fMRI"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": true,
+    "dl_type": [
+      "GNN"
+    ],
+    "task": [
+      "Clasificación"
+    ],
+    "context": [
+      "Diagnóstico"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Predicción con aprendizaje profundo de señales BOLD fMRI a partir de EEG simultáneo durante imaginación motora",
+    "authors": [],
+    "affiliations": [],
+    "session": "SS8",
+    "pdf_url": null,
+    "landing_url": null,
+    "abstract_raw": null,
+    "abstract_public": "Adapta EEGNet a regresión para predecir señales fMRI del área somatomotora a partir de EEG, obteniendo rendimiento similar a regresión Lasso.",
+    "signals": [
+      "EEG",
+      "fMRI"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": true,
+    "dl_type": [
+      "CNN"
+    ],
+    "task": [
+      "Regresión"
+    ],
+    "context": [
+      "Diagnóstico"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Procesamiento de series temporales de imágenes de fase para eliminar ruido respiratorio y cardíaco",
+    "authors": [],
+    "affiliations": [],
+    "session": "SS8",
+    "pdf_url": null,
+    "landing_url": null,
+    "abstract_raw": null,
+    "abstract_public": "Estudio de métodos para corregir ruido fisiológico en fQSM, reduciendo la varianza temporal y analizando el efecto de la longitud de eco.",
+    "signals": [
+      "fMRI"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": false,
+    "dl_type": [],
+    "task": [
+      "Preprocesamiento"
+    ],
+    "context": [
+      "Calidad de señal"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Desvelando la interacción estructural funcional en depresión: un estudio integrado DTI-fMRI",
+    "authors": [],
+    "affiliations": [],
+    "session": "SS8",
+    "pdf_url": null,
+    "landing_url": null,
+    "abstract_raw": null,
+    "abstract_public": "Modelo impulsado por DTI predice conectividad funcional en pacientes con depresión, revelando alteraciones en la correspondencia estructura-función.",
+    "signals": [
+      "fMRI"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": false,
+    "dl_type": [],
+    "task": [
+      "Análisis"
+    ],
+    "context": [
+      "Diagnóstico"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "GSP para identificar acoplamiento estructura-función usando fMRI y MEG",
+    "authors": [],
+    "affiliations": [],
+    "session": "SS10",
+    "pdf_url": null,
+    "landing_url": null,
+    "abstract_raw": null,
+    "abstract_public": "Analiza cómo las oscilaciones de MEG se acoplan con la conectividad estructural utilizando descomposición armónica en grafos.",
+    "signals": [
+      "fMRI",
+      "MEG"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": false,
+    "dl_type": [],
+    "task": [
+      "Análisis"
+    ],
+    "context": [
+      "Diagnóstico"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Transformada de Fourier de grafos para mitigar diafonía en HDEEG",
+    "authors": [],
+    "affiliations": [],
+    "session": "SS10",
+    "pdf_url": null,
+    "landing_url": null,
+    "abstract_raw": null,
+    "abstract_public": "Modela la diafonía entre electrodos de EEG de alta densidad como armónicos de red y diseña un filtro en el dominio GFT.",
+    "signals": [
+      "EEG"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": false,
+    "dl_type": [],
+    "task": [
+      "Preprocesamiento"
+    ],
+    "context": [
+      "Calidad de señal"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Benchmarking de la inferencia de grafos de conectividad cerebral",
+    "authors": [],
+    "affiliations": [],
+    "session": "SS10",
+    "pdf_url": null,
+    "landing_url": null,
+    "abstract_raw": null,
+    "abstract_public": "Propone un marco de simulación para evaluar métodos de detección de conexiones a partir de matrices de correlación fMRI.",
+    "signals": [
+      "fMRI"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": false,
+    "dl_type": [],
+    "task": [
+      "Benchmarking"
+    ],
+    "context": [
+      "Investigación"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Procesamiento de señales impulsado por la comunidad en grafos cerebrales dirigidos",
+    "authors": [],
+    "affiliations": [],
+    "session": "SS10",
+    "pdf_url": null,
+    "landing_url": null,
+    "abstract_raw": null,
+    "abstract_public": "Introduce “bicocomunidades” en grafos dirigidos y descompone señales sobre comunidades enviadoras y receptoras para revelar rutas de comunicación.",
+    "signals": [
+      "fMRI"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": false,
+    "dl_type": [],
+    "task": [
+      "Análisis"
+    ],
+    "context": [
+      "Investigación"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "De nodos a aristas: Laplacianos basados en aristas para el procesamiento de señales cerebrales",
+    "authors": [],
+    "affiliations": [],
+    "session": "SS10",
+    "pdf_url": null,
+    "landing_url": null,
+    "abstract_raw": null,
+    "abstract_public": "Utiliza el laplaciano de Hodge para procesar señales definidas en aristas del grafo, capturando co-fluctuaciones entre regiones cerebrales.",
+    "signals": [
+      "fMRI"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": false,
+    "dl_type": [],
+    "task": [
+      "Análisis"
+    ],
+    "context": [
+      "Investigación"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Voz y neurología: detección de disartria en ELA mediante hypernetworks",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-P2",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001527.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001527.pdf",
+    "abstract_raw": null,
+    "abstract_public": "Convierte vocalizaciones en espectrogramas Mel y usa una hypernetwork para generar pesos de la red, mejorando la detección de disartria en ELA.",
+    "signals": [
+      "Audio"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": true,
+    "dl_type": [
+      "CNN",
+      "Híbrido"
+    ],
+    "task": [
+      "Clasificación"
+    ],
+    "context": [
+      "Diagnóstico"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Segmentación de imágenes médicas: análisis de capas Squeeze-and-Excitation en U-Net",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-P2",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001532.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001532.pdf",
+    "abstract_raw": null,
+    "abstract_public": "Demuestra que las capas SE recalibran suavemente canales y su eficacia no se debe solo a filtrado de canales.",
+    "signals": [
+      "NA"
+    ],
+    "medical_imaging": [
+      "RM",
+      "Histología",
+      "US"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": true,
+    "dl_type": [
+      "CNN"
+    ],
+    "task": [
+      "Segmentación"
+    ],
+    "context": [
+      "Investigación"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Diagnóstico de cálculos renales mediante un marco híbrido CNN",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-P2",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001537.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001537.pdf",
+    "abstract_raw": null,
+    "abstract_public": "Fusiona características de una red preentrenada con un CNN personalizado para diagnosticar cálculos renales a partir de cortes axiales.",
+    "signals": [
+      "NA"
+    ],
+    "medical_imaging": [
+      "RM",
+      "TC"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": true,
+    "dl_type": [
+      "CNN",
+      "Híbrido"
+    ],
+    "task": [
+      "Clasificación"
+    ],
+    "context": [
+      "Diagnóstico"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Oftalmología – OCT: clasificación del tipo de cirugía de membrana epirretiniana",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-P2",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001542.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001542.pdf",
+    "abstract_raw": null,
+    "abstract_public": "Usa ResNet18 con unidades de wavelet sintonizable para clasificar el tipo de cirugía ERM en OCT, mejorando la exactitud.",
+    "signals": [
+      "NA"
+    ],
+    "medical_imaging": [
+      "OCT"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": true,
+    "dl_type": [
+      "CNN"
+    ],
+    "task": [
+      "Clasificación"
+    ],
+    "context": [
+      "Diagnóstico"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Aumento de datos basado en geometría para clasificación de imaginación motora de EEG mediante redes riemannianas profundas",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-P2",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001547.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001547.pdf",
+    "abstract_raw": null,
+    "abstract_public": "Simula rotaciones y desplazamientos del gorro EEG para generar datos sintéticos y entrena redes SPDNet, mejorando la robustez.",
+    "signals": [
+      "EEG"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": true,
+    "dl_type": [
+      "GNN",
+      "CNN"
+    ],
+    "task": [
+      "Clasificación"
+    ],
+    "context": [
+      "Biosensado remoto"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Histopatología: aprendizaje profundo multitarea para segmentación y detección celular en pulmón",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-P2",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001552.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001552.pdf",
+    "abstract_raw": null,
+    "abstract_public": "Combina multitarea y supervisión profunda para segmentar regiones tumorales y detectar células inmunes con menos parámetros.",
+    "signals": [
+      "NA"
+    ],
+    "medical_imaging": [
+      "Histología"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": true,
+    "dl_type": [
+      "CNN"
+    ],
+    "task": [
+      "Segmentación",
+      "Detección"
+    ],
+    "context": [
+      "Diagnóstico"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Histopatología – búsqueda de imágenes basada en Vision Transformers auto-supervisados",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-P2",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001557.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001557.pdf",
+    "abstract_raw": null,
+    "abstract_public": "Ajusta Vision Transformers preentrenados para extraer embeddings y recuperar imágenes similares en datasets histológicos.",
+    "signals": [
+      "NA"
+    ],
+    "medical_imaging": [
+      "Histología"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": true,
+    "dl_type": [
+      "Transformer"
+    ],
+    "task": [
+      "Búsqueda"
+    ],
+    "context": [
+      "Diagnóstico"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "DALL-E BRAIN: Generación de imágenes MRI a partir de indicaciones textuales",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-P2",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001562.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001562.pdf",
+    "abstract_raw": null,
+    "abstract_public": "Entrena un modelo de difusión latente con miles de escáneres y descripciones para generar imágenes cerebrales realistas a partir de texto.",
+    "signals": [
+      "NA"
+    ],
+    "medical_imaging": [
+      "RM"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": true,
+    "dl_type": [
+      "Diffusion"
+    ],
+    "task": [
+      "Generación"
+    ],
+    "context": [
+      "Investigación"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Hipertensión en apnea obstructiva del sueño (OSA)",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-P3",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001567.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001567.pdf",
+    "abstract_raw": null,
+    "abstract_public": "Integra señales de polisomnografía (EEG, ECG, respiración) en un modelo de transfer learning para predecir hipertensión a 5 años.",
+    "signals": [
+      "EEG",
+      "ECG",
+      "Respiración"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": true,
+    "dl_type": [
+      "Transformer",
+      "CNN"
+    ],
+    "task": [
+      "Predicción"
+    ],
+    "context": [
+      "Pronóstico"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Índice de regularidad de la persecución para detección de Parkinson vía videonistagmografía",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-P3",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001572.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001572.pdf",
+    "abstract_raw": null,
+    "abstract_public": "Define un índice de regularidad en movimientos oculares y, combinado con otros parámetros, mejora la clasificación de Parkinson.",
+    "signals": [
+      "EOG"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": false,
+    "dl_type": [],
+    "task": [
+      "Clasificación"
+    ],
+    "context": [
+      "Diagnóstico"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Detección de Parkinson en imágenes DaTScan usando Random Forest y aprendizaje profundo de grafos",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-P3",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001577.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001577.pdf",
+    "abstract_raw": null,
+    "abstract_public": "Segmenta el estriado, construye un grafo y aplica clasificación en dos pasos con Random Forest y redes de grafos, logrando alta exactitud.",
+    "signals": [
+      "NA"
+    ],
+    "medical_imaging": [
+      "RX"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": true,
+    "dl_type": [
+      "GNN",
+      "RandomForest"
+    ],
+    "task": [
+      "Clasificación"
+    ],
+    "context": [
+      "Diagnóstico"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Desarrollo esquelético: marco de distilación de conocimiento para estadificar la fusión esfenoccipital",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-P3",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001582.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001582.pdf",
+    "abstract_raw": null,
+    "abstract_public": "Utiliza un detector YOLO y distilación de conocimiento para automatizar la estadificación de la fusión de la sincondrosis esfenoccipital.",
+    "signals": [
+      "NA"
+    ],
+    "medical_imaging": [
+      "RX",
+      "TC"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": true,
+    "dl_type": [
+      "CNN"
+    ],
+    "task": [
+      "Clasificación"
+    ],
+    "context": [
+      "Diagnóstico"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Llantos infantiles normales vs. patológicos",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-P3",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001587.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001587.pdf",
+    "abstract_raw": null,
+    "abstract_public": "Analiza formantes y usa características cepstrales y embeddings de voz para clasificar llantos infantiles normales y patológicos.",
+    "signals": [
+      "Audio"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": true,
+    "dl_type": [
+      "CNN",
+      "RNN"
+    ],
+    "task": [
+      "Clasificación"
+    ],
+    "context": [
+      "Diagnóstico"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Osteoartritis de rodilla: clasificación de gravedad basada en grafos",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-P3",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001592.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001592.pdf",
+    "abstract_raw": null,
+    "abstract_public": "Segmenta huesos y construye un grafo para predecir grados de osteoartritis usando una Graph Neural Network EdgeConv.",
+    "signals": [
+      "NA"
+    ],
+    "medical_imaging": [
+      "RX"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": true,
+    "dl_type": [
+      "GNN"
+    ],
+    "task": [
+      "Clasificación"
+    ],
+    "context": [
+      "Diagnóstico"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Tumores spitzoides (epigenética): identificación de biomarcadores multi-ómicos",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-P3",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001597.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001597.pdf",
+    "abstract_raw": null,
+    "abstract_public": "Selecciona firmas epigenéticas de datos de ADN y miARN usando DIABLO y destilación logística para identificar biomarcadores.",
+    "signals": [
+      "NA"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": true,
+    "dl_type": [
+      "Hybrid"
+    ],
+    "task": [
+      "Detección"
+    ],
+    "context": [
+      "Diagnóstico"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Bienestar fetal: índice de confianza de salud basado en FHR",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-P4",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001602.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001602.pdf",
+    "abstract_raw": null,
+    "abstract_public": "Modelo One-Class Gaussian Process entrenado con segmentos saludables de frecuencia cardiaca fetal genera un índice continuo y detecta anomalías.",
+    "signals": [
+      "ECG",
+      "PPG"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": false,
+    "dl_type": [],
+    "task": [
+      "Detección"
+    ],
+    "context": [
+      "Monitorización"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Presión aórtica: reconstrucción de la curva de presión aórtica mediante tomografía de impedancia",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-P4",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001607.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001607.pdf",
+    "abstract_raw": null,
+    "abstract_public": "Usa un autoencoder variacional y una red neuronal para mapear medidas de impedancia a representaciones latentes, evidenciando viabilidad de monitorización no invasiva.",
+    "signals": [
+      "Impedancia"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": true,
+    "dl_type": [
+      "AE",
+      "CNN"
+    ],
+    "task": [
+      "Reconstrucción"
+    ],
+    "context": [
+      "Monitorización"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Sonidos respiratorios: red totalmente convolucional para clasificación",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-P4",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001612.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001612.pdf",
+    "abstract_raw": null,
+    "abstract_public": "Red totalmente convolucional eficiente que admite grabaciones de cualquier longitud y utiliza espectrogramas Mel para clasificar sonidos respiratorios.",
+    "signals": [
+      "Audio",
+      "Respiración"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": true,
+    "dl_type": [
+      "CNN"
+    ],
+    "task": [
+      "Clasificación"
+    ],
+    "context": [
+      "Diagnóstico"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Segmentación de ECG: reducción de falsos positivos mediante CNN y Bi-LSTM",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-P4",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001617.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001617.pdf",
+    "abstract_raw": null,
+    "abstract_public": "Añade postprocesado con CNN y Bi-LSTM a algoritmos de segmentación para reducir falsos positivos en la detección de ondas P, QRS y T.",
+    "signals": [
+      "ECG"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": true,
+    "dl_type": [
+      "CNN",
+      "RNN"
+    ],
+    "task": [
+      "Segmentación"
+    ],
+    "context": [
+      "Monitorización"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Segmentación de sonidos cardíacos: ¿es indispensable el aprendizaje profundo?",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-P4",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001622.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001622.pdf",
+    "abstract_raw": null,
+    "abstract_public": "Propone un enfoque basado en grafos y modelos probabilísticos que, tras un preprocesado adecuado, rivaliza con CNN-LSTM en segmentación de sonidos cardíacos.",
+    "signals": [
+      "Audio",
+      "ECG"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": false,
+    "dl_type": [],
+    "task": [
+      "Segmentación"
+    ],
+    "context": [
+      "Calidad de señal"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Fusión de características cardiorespiratorias",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-P4",
+    "pdf_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001627.pdf",
+    "landing_url": "https://eusipco2025.org/wp-content/uploads/pdfs/0001627.pdf",
+    "abstract_raw": null,
+    "abstract_public": "Combina características artesanales y representaciones aprendidas de señales mmWave y RGB-D mediante atención cruzada para mejorar la estimación de postura y clasificación de patrones respiratorios.",
+    "signals": [
+      "Radar",
+      "Video",
+      "Respiración"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": true,
+    "dl_type": [
+      "CNN",
+      "Attention"
+    ],
+    "task": [
+      "Clasificación",
+      "Estimación"
+    ],
+    "context": [
+      "Monitorización"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Modelo ligero paciente invariante para la detección de Freezing of Gait",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-P5",
+    "pdf_url": null,
+    "landing_url": null,
+    "abstract_raw": null,
+    "abstract_public": "Emplea divergencia de Kullback-Leibler para comparar características de un nuevo paciente con cohortes y agruparlo, logrando detección en tiempo real con un único sensor IMU.",
+    "signals": [
+      "IMU"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": false,
+    "dl_type": [],
+    "task": [
+      "Detección"
+    ],
+    "context": [
+      "Monitorización"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Mejora de la detección de ERPs relacionados con la aceleración en realidad virtual usando filtros espaciales",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-P5",
+    "pdf_url": null,
+    "landing_url": null,
+    "abstract_raw": null,
+    "abstract_public": "Compara métodos de filtrado (CSP, EMS, xDAWN) en sujetos de realidad virtual, encontrando que xDAWN separa mejor las condiciones.",
+    "signals": [
+      "EEG"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": false,
+    "dl_type": [],
+    "task": [
+      "Detección"
+    ],
+    "context": [
+      "Biosensado remoto"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Aprendizaje de interacciones de orden superior en redes cerebrales mediante procesamiento topológico de señales",
+    "authors": [],
+    "affiliations": [],
+    "session": "TMTSP-P5",
+    "pdf_url": null,
+    "landing_url": null,
+    "abstract_raw": null,
+    "abstract_public": "Propone estrategias para inferir complejos simpliciales a partir de fMRI y extraer componentes solenoidales y armónicos que revelan patrones de segregación e integración.",
+    "signals": [
+      "fMRI"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": false,
+    "dl_type": [],
+    "task": [
+      "Análisis"
+    ],
+    "context": [
+      "Investigación"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Circulant Determinant Based Permutation Entropy for sEMG Signal Processing",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-P5",
+    "pdf_url": null,
+    "landing_url": null,
+    "abstract_raw": null,
+    "abstract_public": "Introduce una variante de la entropía de permutación que captura la complejidad de señales sEMG mediante determinantes circulantes.",
+    "signals": [
+      "EMG"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": false,
+    "dl_type": [],
+    "task": [
+      "Análisis"
+    ],
+    "context": [
+      "Investigación"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Enhancing Near Infrared Spectroscopy Analysis Using Ordinal Pattern Methods",
+    "authors": [],
+    "affiliations": [],
+    "session": "BISA-P5",
+    "pdf_url": null,
+    "landing_url": null,
+    "abstract_raw": null,
+    "abstract_public": "Detecta respuestas hemodinámicas en fNIRS usando entropía de permutación y promedia señales rectificadas, sin necesidad de entrenamiento.",
+    "signals": [
+      "fNIRS"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": false,
+    "dl_type": [],
+    "task": [
+      "Detección"
+    ],
+    "context": [
+      "Diagnóstico"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Enhancing DL based Cell Segmentation of Microalgae with Classical Image Processing Priors",
+    "authors": [],
+    "affiliations": [],
+    "session": "VIP-P1.8",
+    "pdf_url": null,
+    "landing_url": null,
+    "abstract_raw": null,
+    "abstract_public": "Combina segmentación clásica con SAM como guía para mejorar la segmentación automática de células de microalgas.",
+    "signals": [
+      "NA"
+    ],
+    "medical_imaging": [
+      "Microscopía"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": true,
+    "dl_type": [
+      "CNN"
+    ],
+    "task": [
+      "Segmentación"
+    ],
+    "context": [
+      "Investigación"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Classification of Indoor Clutter from Images: Application to Hoarding Assessment",
+    "authors": [],
+    "affiliations": [],
+    "session": "VIP-P1.7",
+    "pdf_url": null,
+    "landing_url": null,
+    "abstract_raw": null,
+    "abstract_public": "Utiliza un Vision Transformer para evaluar el desorden en hogares y apoyar la detección del trastorno de acumulación.",
+    "signals": [
+      "NA"
+    ],
+    "medical_imaging": [
+      "Fotografía"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": true,
+    "dl_type": [
+      "Transformer"
+    ],
+    "task": [
+      "Clasificación"
+    ],
+    "context": [
+      "Diagnóstico"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Leveraging Wav2Vec2.0 and DistilBERT for Stutter Detection",
+    "authors": [],
+    "affiliations": [],
+    "session": "ASMSP-L3.3",
+    "pdf_url": null,
+    "landing_url": null,
+    "abstract_raw": null,
+    "abstract_public": "Analiza representaciones internas del modelo Whisper para detectar disfluencias, demostrando que las capas intermedias capturan mejor el tartamudeo.",
+    "signals": [
+      "Audio"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": true,
+    "dl_type": [
+      "Transformer"
+    ],
+    "task": [
+      "Detección"
+    ],
+    "context": [
+      "Diagnóstico"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Variational Autoencoder for Personalized Pathological Speech Enhancement",
+    "authors": [],
+    "affiliations": [],
+    "session": "ASMSP-L5.4",
+    "pdf_url": null,
+    "landing_url": null,
+    "abstract_raw": null,
+    "abstract_public": "Evalúa modelos VAE NMF para mejorar la voz de hablantes con Parkinson mediante fine tuning personalizado con unos segundos de voz limpia.",
+    "signals": [
+      "Audio"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": true,
+    "dl_type": [
+      "AE"
+    ],
+    "task": [
+      "Mejora"
+    ],
+    "context": [
+      "Terapia"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Extracting Pulse Rate Variability Parameters from Remote NIR rPPG using Deep Learning",
+    "authors": [],
+    "affiliations": [],
+    "session": "VIP-P2.6",
+    "pdf_url": null,
+    "landing_url": null,
+    "abstract_raw": null,
+    "abstract_public": "Utiliza cámaras NIR y modelos como PhysNet, PhysFormer y EfficientPhys para estimar parámetros de variabilidad del pulso en condiciones de poca luz.",
+    "signals": [
+      "rPPG",
+      "PPG"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": true,
+    "dl_type": [
+      "CNN",
+      "RNN"
+    ],
+    "task": [
+      "Regresión"
+    ],
+    "context": [
+      "Monitorización"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  },
+  {
+    "title": "Modelo de generador de ECG de fibrilación auricular basado en HMM y oscilador Van der Pol",
+    "authors": [],
+    "affiliations": [],
+    "session": "TMTSP-P1.6",
+    "pdf_url": null,
+    "landing_url": null,
+    "abstract_raw": null,
+    "abstract_public": "Combina un HMM entrenado con intervalos RR y un oscilador Van der Pol modificado para generar señales sintéticas de fibrilación auricular preservando la privacidad.",
+    "signals": [
+      "ECG"
+    ],
+    "medical_imaging": [
+      "Otra"
+    ],
+    "clinical_tabular": false,
+    "uses_dl": false,
+    "dl_type": [],
+    "task": [
+      "Generación"
+    ],
+    "context": [
+      "Investigación"
+    ],
+    "keywords": [],
+    "collections": [],
+    "year": 2025,
+    "source": "EUSIPCO 2025"
+  }
+];
